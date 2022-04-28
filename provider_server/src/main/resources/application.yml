@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: provider
+  main:
+    allow-bean-definition-overriding: true
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oauth2_demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: xhy123456
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+  cloud:
+    nacos:
+      config:
+        server-addr: 172.18.119.9:8848
+      discovery:
+        server-addr: 172.16.51.14:8848
+        group: group-local
+        namespace: xiayu
+
+
+# oauth 配置
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: secret
+      access-token-uri: http://localhost:9876/oauth/token
+      user-authorization-uri: http://localhost:9876/oauth/authorize
+    resource:
+      token-info-uri:  http://localhost:9876/oauth/check_token
+
+server:
+  port: 9874
+
+
