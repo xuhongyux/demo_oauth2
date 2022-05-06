@@ -20,7 +20,7 @@ class Oauth2ApplicationTests {
     }
     @Test
     public void testPost() {
-        String url = "http://localhost:9876/oauth/token";
+        String url = "http://localhost:10016/oauth/token";
         OkHttpClient client = new OkHttpClient();
         RequestBody body = new FormBody.Builder()
                 .add("username", "user")

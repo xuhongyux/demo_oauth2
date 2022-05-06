@@ -24,33 +24,12 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
       connection-test-query: SELECT 1
-
-#---
-#spring:
-#  profiles: xiayu
-#  cloud:
-#    nacos:
-#      discovery:
-#        server-addr: 172.16.51.14:8848
-#        group: group-local
-#        namespace: xiayu
-#      config:
-#        server-addr: 172.16.51.14:8848
-#        file-extension: yaml
-#        namespace: xiayu
-
-#spring:
-#  profiles: xiayu
-#  cloud:
-#    nacos:
-#      discovery:
-#        server-addr: 172.16.51.14:8848
-#        group: group-local
-#        namespace: xiayu
-#      config:
-#        server-addr: 172.16.51.14:8848
-#        file-extension: yaml
-#        namespace: xiayu
+  cloud:
+    nacos:
+      config:
+        server-addr: 110.40.181.41:8848
+      discovery:
+        server-addr: 110.40.181.41:8848
 
 
 server:

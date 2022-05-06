@@ -21,6 +21,7 @@
 		<module>spring-boot-dependencies</module>
 		<module>provider_server</module>
 		<module>oauth2_server</module>
+        <module>consume_server</module>
 	</modules>
 
 

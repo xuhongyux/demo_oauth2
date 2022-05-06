@@ -1,14 +1,14 @@
 spring:
   application:
-    name: provider
+    name: consume
   main:
     allow-bean-definition-overriding: true
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
   output:
     ansi:
       enabled: always
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -44,6 +44,6 @@ security:
       token-info-uri:  http://localhost:9876/oauth/check_token
 
 server:
-  port: 9870
+  port: 9871
 
 
