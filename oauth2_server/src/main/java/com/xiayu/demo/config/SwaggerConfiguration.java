@@ -1,4 +1,4 @@
-package com.xiayu.oauth2.config;
+package com.xiayu.demo.config;
 
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping;

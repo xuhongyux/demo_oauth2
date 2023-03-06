@@ -1,4 +1,4 @@
-package com.xiayu.oauth2.config;
+package com.xiayu.demo.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

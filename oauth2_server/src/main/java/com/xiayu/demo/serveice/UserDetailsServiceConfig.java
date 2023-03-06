@@ -1,4 +1,4 @@
-package com.xiayu.oauth2.serveice;
+package com.xiayu.demo.serveice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;

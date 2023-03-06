@@ -1,4 +1,4 @@
-package com.xiayu.oauth2;
+package com.xiayu.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

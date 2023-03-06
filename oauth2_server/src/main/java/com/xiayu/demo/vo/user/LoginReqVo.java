@@ -1,4 +1,4 @@
-package com.xiayu.oauth2.vo.user;
+package com.xiayu.demo.vo.user;
 
 //import io.swagger.annotations.ApiModel;
 //import io.swagger.annotations.ApiModelProperty;

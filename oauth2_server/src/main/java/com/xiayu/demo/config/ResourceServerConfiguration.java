@@ -1,4 +1,4 @@
-package com.xiayu.oauth2.config;
+package com.xiayu.demo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

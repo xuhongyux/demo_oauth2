@@ -1,6 +1,6 @@
-package com.xiayu.oauth2.config;
+package com.xiayu.demo.config;
 
-import com.xiayu.oauth2.serveice.UserDetailsServiceConfig;
+import com.xiayu.demo.serveice.UserDetailsServiceConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
